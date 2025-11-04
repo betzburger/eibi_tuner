@@ -118,8 +118,8 @@ class EibiTuner(tk.Frame):
             server = xmlrpc.client.ServerProxy(server_url)
             server.main.set_frequency(float(frequency_hz))
             print(f"Frequency set to: {frequency_hz} Hz")
-            server.rig.set_mode("USB")
-            print("Mode set to: USB")
+            # server.rig.set_mode("USB")
+            # print("Mode set to: USB")
         except ConnectionRefusedError:
             print("Connection to FLRIG refused. Is FLRIG running?")
         except Exception as e:
