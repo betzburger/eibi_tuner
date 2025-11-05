@@ -26,3 +26,5 @@ This Python program, eibi_tuner.py, is a graphical user interface (GUI) applicat
 
   The program is implemented in Python using the tkinter library for the GUI and xmlrpc.client for communication with
    FLRIG. It was developed to facilitate browsing and tuning into shortwave stations.
+
+<img src="eibi_tuner screenshot.png" alt="" width="800" />
